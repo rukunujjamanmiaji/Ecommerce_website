@@ -1,0 +1,110 @@
+.page-header{margin-top: 0px; height: 80px ;}
+.page-header .navbar-nav>li>a{color: #fff; border-top: 2px solid transparent;}
+@media(min-width: 768px){
+    .page-header .navbar-nav>li>a{padding-top: 28px;padding-bottom: 32px;}
+    .page-header .navbar-nav>li>a:hover{color: #000 !important;border-top: 2px solid #fff;background: none;}
+}
+.padding-left-30{padding-left: 30px;}
+.pcontainer{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+@media (min-width:768px){
+    .pcontainer{width:750px}
+}
+@media (min-width:992px){
+    .pcontainer{width:970px}
+}@media (min-width:1200px){
+    .pcontainer{width:1170px}
+}
+@media (min-width:1300px){
+    .pcontainer{width:1270px}
+}
+@media (min-width:1400px){
+    .pcontainer{width:1370px}
+}
+@media (min-width:1500px){
+    .pcontainer{width:1470px}
+}
+.btn-icon-only-custom{width: 20px ;height: 20px;padding:2px;}
+.toast-top-center {
+    top: 50%;
+    margin: 0 auto;
+    left: 50%;
+}
+.dropdown-menu-small li > a{
+    line-height: 14px ;
+    padding: 5px 7px;
+    font-size: 12px;
+}
+p.error{    background-color: red;color: #fff;padding: 0px 8px;  font-size: 12px;}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio]{margin-left: -10px !important;}
+.box-shadow{box-shadow: 1px 2px 10px #ccc;padding:  15px;margin-bottom: 30px;background-color: #fff;}
+.box-shadow-content{box-shadow: 1px 2px 10px #ccc;padding:  15px;}
+/***
+Content and content elements.
+***/
+/*Services Box*/
+.service-box {
+    margin: 30px -15px; 
+}
+
+.service-box p {
+    color: #656565;
+    font-size: 15px;
+    text-align: center;
+}
+
+.service-box .service-box-heading {
+    padding: 12px 0;text-align: center;
+}
+
+.service-box .service-box-heading i {
+    padding: 0;
+    -webkit-border-radius: 34px;
+    -moz-border-radius: 34px;
+    border-radius: 34px;
+    font-size:18px;
+    height:32px;
+    width:32px;
+    line-height: 32px;
+    text-align:center;
+    vertical-align: baseline;
+}
+
+.service-box .service-box-heading i.blue {
+    color: #0da3e2;
+    //border:1px solid #0da3e2;
+    font-size: 70px;
+}
+
+.service-box .service-box-heading i.red {
+    color: #db3a1b;
+    //border:1px solid #db3a1b;
+    font-size: 70px;
+}
+
+.service-box .service-box-heading i.green {
+    color: #35aa47;
+    //border:1px solid #35aa47;
+    font-size: 70px;
+}
+
+.service-box .service-box-heading span {
+    color: #444;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.service-box .service-box-heading [class^="icon-"],
+.service-box [class*=" icon-"] {
+    display: inline-block;
+    text-align: center;
+}
+
+.service-box .service-box-heading [class^="icon-"].icon-large,
+.service-box .service-box-heading [class*=" icon-"].icon-large {
+    /* increased font size for icon-large */
+    width: 1.5625em;
+}
